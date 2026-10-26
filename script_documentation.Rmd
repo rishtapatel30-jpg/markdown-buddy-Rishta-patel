@@ -1,6 +1,6 @@
 ---
 title: "R Script Documentation"
-author: "Rakeshkumar Patel"
+author: "Rishta Patel"
 date: "2026-10-26"
 output: html_document
 ---
