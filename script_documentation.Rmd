@@ -1,0 +1,30 @@
+---
+title: "R Script Documentation"
+author: "Rakeshkumar Patel"
+date: "2026-10-26"
+output: html_document
+---
+
+# Purpose
+This R Markdown file documents the core data analysis script used in the project. It outlines the data processing workflow, inputs required, and expected analytical outputs.
+
+## Inputs
+- **Dataset:** Synthetic data file (`synthetic_dataset.csv`) containing numerical and categorical variables.
+- **Parameters:** Standard cleaning thresholds and summary parameters defined in the script.
+
+## Outputs
+- **Cleaned Data:** Processed dataset ready for modeling.
+- **Visualizations:** Distribution plots and correlation charts saved in the output directory.
+
+## Code Demonstration
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+# Example code block showing summary generation
+summary(mtcars)
+AI Assistance Disclosure
+Tool Used: Gemini
+
+Prompts: "Suggest Markdown formatting and code block examples for an R script documentation."
+
+Verification: Knitted and previewed the file successfully inside RStudio/Posit Cloud.
